@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: ecsdemo-nodejs
 spec:
-  type: LoadBalancer
   selector:
     app: ecsdemo-nodejs
   ports:
